@@ -7,13 +7,13 @@ def add_number(numbers):
 
 def delete_number(numbers):
     try:
-        num = int(input("Nhap so can xoa")) 
+        num = int(input("Nhap so can xoa: ")) 
         if num in numbers:
             numbers.remove(num)
         else:
             print("So khong ton tai")
     except:
-        print("Vui long nhap so")
+        print("Vui long chi nhap so")
 
 def find_max(numbers):
     max_num = numbers[0]
